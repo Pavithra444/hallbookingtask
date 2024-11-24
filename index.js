@@ -138,3 +138,6 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
     console.log(`http://localhost:${PORT}`);
 });
+app.get('/', (req, res) => {
+    res.send('Q1 -- /halls  , Q2 -- /bookings , Q3 -- /listbookings , Q4 -- /customerbookings , Q5 -- /custreport');
+  });
